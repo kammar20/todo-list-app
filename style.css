@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* form todo */
+.form-todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-todo input[type='text'] {
+  width: 78%;
+  padding: 15px;
+  border: 1px solid #757575;
+  font-size: 16px;
+}
+
+.form-todo input[type='text']:focus {
+  outline: none;
+  border: 1px solid #333;
+}
+
+.form-todo input[type='submit'] {
+  width: 20%;
+  padding: 15px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+::placeholder {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+/* todo list */
+li {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.todo-btn {
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 10px;
+}
